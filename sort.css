@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+#container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    
+}
+.bar{
+    background-color : white;
+    margin: 1px;
+}
+#header{
+    color: white;
+    font-size: 50px;
+}
+#btn1{
+    position:fixed;
+    left: 9%;
+    border-radius: 8px;
+    border: 1px solid red;
+    font-size: 28px;
+    padding: 5px 15px;
+    text-align: center;
+    color: red;
+    background-color: black;
+    top: 20%;
+}
+#btn1{
+    transition-duration: 0.4s;
+}
+#btn1:hover{
+    background-color: white;
+    color: red;
+}
+  
+#btn2{
+    position:fixed;
+    left: 3%;
+    border-radius: 8px;
+    border: 2px solid blue;
+    font-size: 27px;
+    padding: 5px 15px;
+    text-align: center;
+    color: blue;
+    background-color: black;
+    top: 20%;
+}
+#btn2{
+    transition-duration: 0.4s;
+}
+#btn2:hover{
+    background-color: white;
+    color: blue;
+}
+#btn3{
+    position:fixed;
+    left: 15%;
+    border-radius: 8px;
+    border: 2px solid #086F83;
+    font-size: 27px;
+    padding: 5px 15px;
+    text-align: center;
+    color: #086F83;
+    background-color: black;
+    top: 20%;
+}
+#btn3{
+    transition-duration: 0.4s;
+}
+#btn3:hover{
+    background-color: white;
+    color: #086F83;
+}
+
+#numbars{
+    position:fixed;
+    left:6.3%;
+    top:11%
+}
+#label1{
+    position: fixed;
+    font-size: 29px;
+    color: white;
+    left: 3%;
+    top:10%;
+}
+#speedbars{
+    position:fixed;
+    left:21.5%;
+    top:11%
+}
+#label2{
+    position: fixed;
+    font-size: 29px;
+    color: white;
+    left: 17%;
+    top:10%;
+}
+
+#option{
+    background-color: black;
+    color: white;
+    position:fixed;
+    left:22%;
+    top:20.5%;
+    padding: 3px;
+    width: 270px;
+    font-size: 25px;
+}
+
+

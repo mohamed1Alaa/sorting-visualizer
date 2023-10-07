@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+    <title> sorting project </title>
+    <link rel = "stylesheet" href = "sort.css">
+ </head>
+ <body>
+
+   <h1 id = "header">sorting visualizer</h1>
+   <div id = "container"></div> 
+
+   <div id = "par">
+      <button class = "classbtn1" id = "btn1" onclick="new_array()"> new </button>
+      <button class = "classbtn2" id = "btn2"  onclick="sort()"> sort </button>
+      <button class = "classbtn3" id = "btn3"  onclick="reset()"> reset </button>
+      <label id = "label1" > size </label>
+      <input  class = "classbtn4" id = "numbars" type="range" min="10" max="200" value="90">
+      <label id = "label2" > speed </label>
+      <input  class = "classbtn5" id = "speedbars" type="range" min="10" max="100" value="40">
+      <form>
+         <select id = "option">
+            <option  value = "bubble sort">Bubble sort</option>
+            <option  value = "quick sort">Quick sort</option>
+            <option  value = "selection sort">Selection sort</option>
+            <option  value = "merge sort">Merge sort</option>
+            <option  value = "insertion sort">Insertion sort</option>
+         </select>
+         
+      </form>
+   </div>
+
+   <script src="sort.js"></script>
+
+</body>
+
+</html> 
