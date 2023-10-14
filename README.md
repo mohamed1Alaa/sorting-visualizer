@@ -6,4 +6,6 @@ Array Size Control.
 
 
 
-https://github.com/mohamed1Alaa/sorting-visualizer/assets/72877626/5ff0537a-66c5-4ef5-ba36-0698eb82a2b8
+
+https://github.com/mohamed1Alaa/sorting-visualizer/assets/72877626/905761f7-7392-4e6e-aff9-ee8f7bcb0331
+
